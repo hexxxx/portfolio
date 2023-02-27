@@ -14,9 +14,9 @@ App screenshot:
 ![URL section](https://raw.githubusercontent.com/hexxxx/portfolio/gh-pages/images/screenshot.png "Screenshot")
 
 ### Technologies Used
-[ ] Bootstrap
-[ ] HTML
-[ ] CSS
-[ ] JS
+1. [ ] Bootstrap
+1. [ ] HTML
+1. [ ] CSS
+1. [ ] JS
 
 ### JS Interactions
