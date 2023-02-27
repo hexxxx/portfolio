@@ -30,3 +30,4 @@ Prospective users will be professional connections or other interested parties t
 ## Major Hurdles / Unresolved Problems
 1. [ ] Carousel sizing was giving me a ton of headaches. I really didn't want to use landscape aspect ratio images but didn't have a lot of luck getting the 16:9 images to display nicely. 
 1. [ ] I couldn't get my CSS styling to render how I wanted it to. I wanted to keep the navbar items aligned left but in order to get the containers centered on the page I had to add global CSS styling and that seems to be overriding the nav styling no matter what I do. 
+1. [ ] Can't get my images working on my GH Pages deployed site despite correcting the paths in index.html (to the best of my knowledge). 
