@@ -36,16 +36,10 @@
 	cursor: pointer;
 }
 
-/* Main Content */
-.main-content {
-	/* Your main content styles go here */
-}
-
-
 body {
     /* background: url(https://c4.wallpaperflare.com/wallpaper/39/346/426/digital-art-men-city-futuristic-night-hd-wallpaper-preview.jpg);
     background-size: cover; */
-    font-family: Arial, sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 16px;
 }
 
@@ -94,6 +88,15 @@ section p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
+}
+
+#home {
+    margin-top: 20px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: larger;
 }
 
 /* Container */
