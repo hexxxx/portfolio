@@ -13,4 +13,4 @@ SEI Unit 1 Project
     ![URL section](https://media.giphy.com/media/WUsOlSNbPlE72OudJs/giphy.gif)
 
 Inline-style: 
-![alt text](https://raw.githubusercontent.com/hexxxx/portfolio/gh-pages/images/screenshot.png "Screenshot")
+![URL section](https://raw.githubusercontent.com/hexxxx/portfolio/gh-pages/images/screenshot.png)
