@@ -2,21 +2,21 @@
 
 ![URL section](https://raw.githubusercontent.com/hexxxx/portfolio/gh-pages/images/screenshot.png "Screenshot")
 
-### Technologies Used
+## Technologies Used
 1. [ ] Bootstrap
 1. [ ] HTML
 1. [ ] CSS
 1. [ ] JS
 
-### JS Interactions
+## JS Interactions
 1. [ ] Modal
 1. [ ] Carousel
 1. [ ] Clickable nav bar
 
-### Installation Instructions
+## Installation Instructions
 1. [ ] Not applicable
 
-### User Stories
+## User Stories
 Prospective users will be professional connections or other interested parties that want to see examples of my work, resume, and contact details. 
 
 ## Wireframes
