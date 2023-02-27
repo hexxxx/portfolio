@@ -27,10 +27,10 @@ App screenshot:
 ### User Stories
 Prospective users will be professional connections or other interested parties that want to see examples of my work, resume, and contact details. 
 
-### Wireframes
-## Modal
+## Wireframes
+### Modal
 ![URL section](https://github.com/hexxxx/portfolio/blob/gh-pages/images/modal.jpg?raw=true "Modal")
-## Carousel
+### Carousel
 ![URL section](https://github.com/hexxxx/portfolio/blob/gh-pages/images/carousel.jpg?raw=true "Carousel")
-## Clickable Nav
+### Clickable Nav
 ![URL section](https://github.com/hexxxx/portfolio/blob/gh-pages/images/clickablenav.jpg?raw=true "Clickable Nav")
