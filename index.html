@@ -6,25 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>AJK Portfolio</title>
 
-    <!-- Bootstrap CSS -->
-    <!-- <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+VqnCGbO6659gV+orY5NQ6aDlV90UclX+Q8EZ6"
-      crossorigin="anonymous"
-    /> -->
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-6bZLUvFWkVhNBLkCjgzN1I22ZpRXvd9XJx+k1a/Ub+cmePAyI2SKmJuGCKrLgBf" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+    <!-- <script src="bootstrap.min.js"></script> -->
     <script src="app.js" defer></script>
-    
   </head>
-  <body>
 
+  <body>
     <!-- Greeting Modal -->
     <div id="greeting-modal" class="modal">
       <div class="modal-content">
@@ -55,6 +49,7 @@
                   <a class="nav-link" href="#resume">Resume</a>
                   <a class="nav-link" href="#projects">Projects</a>
                   <a class="nav-link" href="#links">Links</a>
+                  <a class="nav-link" href="#bella">Bella</a>
                   <!-- <a class="nav-link disabled">Disabled</a> -->
               </div>
           </div>
@@ -68,19 +63,11 @@
           <div class="col-md-6">
             <h1>Alice Karp: Engineer</h1>
             <p class="lead">I'm a Philadelphia-based full stack software engineer.</p>
+            <img src="/images/me.jpeg" class="img-thumbnail" alt="Alice Headshot">
           </div>
         </div>
       </div>
     </section>
-
-    
-
-    <!-- <div class="container">
-      <div class="jumbotron">
-        <h1>Alice Karp: Engineer</h1>      
-        <p>I'm a Philadelphia-based full stack software engineer.</p>
-      </div>
-    </div> -->
 
   <!-- About Section -->
     <section id="about" class="py-5">
@@ -121,20 +108,74 @@
             </div>
           </div>
         </div>
-    </section>
-
+      </section>
+      
   <!-- Links -->
     <section id="links" class="bg-secondary text-white py-5">
         <footer>
             <div class="container">
-                <h2>Links</h2>
-                <ul>
-                    <li><a href="https://github.com/hexxxx">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/alice-karp-8791b4122/">LinkedIn</a></li>
-                </ul>
+              <div class="row">
+                <div class="col-md-6">
+                  <h2>Links</h2>
+                  <ul>
+                      <li><a href="https://github.com/hexxxx">GitHub</a></li>
+                      <li><a href="https://www.linkedin.com/in/alice-karp-8791b4122/">LinkedIn</a></li>
+                  </ul>
             </div>
         </footer>
     </section>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- ########### BELLA ############ -->
+    <section id="bella" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- <h2 class="text-center mb-5">Have you seen my cat?</h2> -->
+            <div id="bella-carousel" class="carousel slide mx-auto" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#bella-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#bella-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#bella-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/images/bella1.jpeg" alt="so beautiful my eyes hurt" style="width:auto; height: 1000px; object-fit: cover;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>She can't be a real cat, right?</h5>
+                    <p>The beauty! It overwhelms me!</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="/images/bella3.jpeg" alt="Image 3" style="width:auto; height: 1000px; object-fit: cover;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Still Perfect</h5>
+                    <p>Description of Perfect Cat</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="/images/bella4.jpeg" alt="Bella + Lyndsay" style="width:auto; height: 1000px; object-fit: cover;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Bella + Lyndsay</h5>
+                    <p>My Girls 💕</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#bella-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#bella-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">
+    
+    <script>
+      var myCarousel = document.querySelector('#bella-carousel')
+      var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: false,
+        wrap: true
+      })
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
