@@ -1,15 +1,33 @@
-# Portfolio-Unit-1
-SEI Unit 1 Project
+# SEI Unit 1 Project
 
-#### Workflow - to be met by February 27, 2023
-1. A git repository hosted on Github with frequent commits dating back to the
-  very beginning of the project (**at least one commit is required per day of the project**).
-1. A `README.md` file that includes the following sections:
-    1. [ ] An embedded screenshot of the app
-    1. [ ] List of the **Technologies used**
-    1. [ ] **Installation instructions**
-    1. [ ] Your **User stories** – who are your users, what do they want and why?
-    1. [ ] Your **Wireframes** – sketches of major views / interfaces in your application
-    1. [ ] Descriptions of any **Unsolved problems** or **major hurdles** you had to overcome
-1. A link to your hosted project in the URL section of your Github repo (see below).
-    ![URL section](https://media.giphy.com/media/WUsOlSNbPlE72OudJs/giphy.gif)
+![URL section](https://raw.githubusercontent.com/hexxxx/portfolio/gh-pages/images/screenshot.png "Screenshot")
+
+## Technologies Used
+1. [ ] Bootstrap
+1. [ ] HTML
+1. [ ] CSS
+1. [ ] JS
+
+## JS Interactions
+1. [ ] Modal
+1. [ ] Carousel
+1. [ ] Clickable nav bar
+
+## Installation Instructions
+1. [ ] Not applicable
+
+## User Stories
+Prospective users will be professional connections or other interested parties that want to see examples of my work, resume, and contact details. 
+
+## Wireframes
+### Modal
+![URL section](https://github.com/hexxxx/portfolio/blob/gh-pages/images/modal.jpg?raw=true "Modal")
+### Carousel
+![URL section](https://github.com/hexxxx/portfolio/blob/gh-pages/images/carousel.jpg?raw=true "Carousel")
+### Clickable Nav
+![URL section](https://github.com/hexxxx/portfolio/blob/gh-pages/images/clickablenav.jpg?raw=true "Clickable Nav")
+
+## Major Hurdles / Unresolved Problems
+1. [ ] Carousel sizing was giving me a ton of headaches. I really didn't want to use landscape aspect ratio images but didn't have a lot of luck getting the 16:9 images to display nicely. 
+1. [ ] I couldn't get my CSS styling to render how I wanted it to. I wanted to keep the navbar items aligned left but in order to get the containers centered on the page I had to add global CSS styling and that seems to be overriding the nav styling no matter what I do. 
+1. [ ] Can't get my images working on my GH Pages deployed site despite correcting the paths in index.html (to the best of my knowledge). 

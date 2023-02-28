@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    justify-content: center;
+	align-items: center;
 }
 
 /* Greeting Modal */
@@ -36,16 +39,21 @@
 	cursor: pointer;
 }
 
-/* Main Content */
-.main-content {
-	/* Your main content styles go here */
-}
-
-
+#bella-carousel {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+	align-items: center;
+  }
+  
+  /* .carousel-control-prev, */
+  /* .carousel-control */
+  
 body {
     /* background: url(https://c4.wallpaperflare.com/wallpaper/39/346/426/digital-art-men-city-futuristic-night-hd-wallpaper-preview.jpg);
     background-size: cover; */
-    font-family: Arial, sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 16px;
 }
 
@@ -94,6 +102,15 @@ section p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
+}
+
+#home {
+    margin-top: 20px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: larger;
 }
 
 /* Container */
